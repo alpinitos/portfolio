@@ -7,6 +7,7 @@ Vue.config.productionTip = false
 Vue.component('Nav-bar', require('./components/shared/navbar.vue').default)
 Vue.component('Footer', require('./components/shared/footer.vue').default)
 Vue.component('Home', require('./components/home.vue').default)
+Vue.component('Contact', require('./components/shared/contact.vue').default)
 
 new Vue({
   router,

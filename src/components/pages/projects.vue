@@ -118,6 +118,9 @@ export default {
 }
 </script>
 <style scoped>
+    .container__portfolio{
+                padding-top:100px;
+    }
     .container__portfolio--items{
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -213,5 +216,39 @@ export default {
         padding: 5px 10px;
         border-radius: 10px;
         text-align: center;
+    }
+    @media (max-width: 850px) {
+        .container__portfolio{
+            height: 100%;
+        }
+        .container__portfolio--items{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap ;
+            
+        }
+        .container__portfolio--items__card{
+            height: 100%;
+            margin: 15px 30px;
+        }
+        .text__edition{
+            grid-template-columns: 1fr;
+        }
+        .text__edition--tech{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .text__edition--tech h4{
+            width: 100%;
+        }
+        .text__edition--rol{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .text__edition--rol h4{
+           width: 100%;   
+        }
     }
 </style>

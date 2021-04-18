@@ -23,6 +23,7 @@ export default {
   }
   .all__body{
     background: linear-gradient(#000,#17005C);
+    width: 100vw;
     /* #0713A6 */
   }
 </style>

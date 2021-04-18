@@ -8,7 +8,11 @@
             <div class="container__about--site">
                 <h3>{{about.city}}</h3><h3>{{about.country}}</h3>
             </div>
-            <div class="container__about--description">{{about.description}}</div>
+            <div class="container__about--description">
+                <p>
+                    {{about.description}}
+                </p>
+                </div>
         </div>
     </div>
 
@@ -20,7 +24,7 @@ export default {
             about:{
                 
                     name:'Juan Camilo Espitia Camacho',
-                    description:'<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo voluptatem voluptate qui, pariatur facilis. Eius mollitia doloremque hic porro!</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ipsum animi nesciunt quasi dolores earum.</p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora recusandae, deserunt architecto totam fuga expedita veritatis laborum adipisci! Modi numquam fuga nulla iusto voluptatibus perferendis.</p>',
+                    description:'Welcome to my being, I am Juan Camilo Espitia Camacho, Web developer of Fusepong in the city of Bogotá, Mechanical Engineer of the Francisco José de Caldas District University, passionate about all kinds of bicycles, substitute father of a boy and girl, husband of a great woman. I fell in love with software development at 15 years old, but by chance in life I left it for more than 10 years, at 28 I take it up again and with the help of Platzi and my family I will be one of the best. This site is created to start my journey as a Blogger and serve the community.',
                     city:'Bogotá',
                     country:'Colombia',
                     img:'https://images.emojiterra.com/twitter/v13.0/512px/1f1e8-1f1f4.png'
@@ -39,6 +43,7 @@ export default {
     height: 70vh;
 }
 .container__about{
+    padding-top:100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,5 +85,17 @@ export default {
     background: rgba(255,255,255,0.1);
     color:white;
     margin:8px;
+}
+.container__about--description{
+    text-align: justify;
+    padding: 0 15px;
+}
+@media (max-width: 850px) {
+    .all__about{
+        height: 100%;
+    }
+    .container__about--name h2{
+        font-size: 20px;
+    }
 }
 </style>

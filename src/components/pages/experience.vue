@@ -115,6 +115,9 @@ export default {
 }
 </script>
 <style scoped>
+.container__experience{
+                padding-top:100px;
+    }
 *{
     color:white;
 }
@@ -185,5 +188,25 @@ export default {
 }
 .container__experience--works__cards--date h5{
     padding-left: 15px;
+}
+@media (max-width: 850px) {
+    .separate__containers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container__experience--work{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container__experience--works__title{
+        margin: 15px auto;
+    }
+    .container__experience--works__cards{
+        margin: 15px auto;   
+    }
 }
 </style>

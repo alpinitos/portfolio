@@ -2,8 +2,9 @@
     <div class="container__landing">
        <div class="container__landing--box">
            <div class="container__landing--box__image">
-               
-               <img src="" alt="">
+               <p>
+                   BACKEND DEVELOPER AND SOFTWARE ENGINEER IN BUILTING
+               </p>
            </div>
             <div class="container__landing--box__text">
                 <p class="quote">Yesterday is history, tomorrow is a mistery, and today is a gift.. that's why they call it the present.</p>
@@ -13,12 +14,13 @@
     </div>
 </template>
 <style scoped>
-.container__landing{
-       width: 100%;
-       height: 70vh;
-       display: flex;
-       justify-content:center;
-       text-align: center;
+    .container__landing{
+        padding-top:100px;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content:center;
+        text-align: center;
    }
    .container__landing--box{
        display: grid;
@@ -30,6 +32,15 @@
    .container__landing--box__image{
        height: 100%;
        width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .container__landing--box__image p{
+       font-size:40px;
+       color: white;
+       margin: 0 30px;
+       text-align: center;
    }
    .container__landing--box__text{
        display: flex;
@@ -43,7 +54,9 @@
    }
 
 @media (max-width: 850px) {
-   
+   .container__landing{
+        height: 100%;
+   }
 
 }
 @media (max-width: 850px) and (orientation: landscape){

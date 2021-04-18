@@ -35,7 +35,13 @@ const routes = [
         path: 'aboutme',
         name: 'AboutMe',
         component: () => import('../../components/pages/aboutme.vue'),
-        meta: {title: 'Acerca de'},
+        meta: {title: 'Regniek | About me'},
+      },
+      {
+        path: 'contactme',
+        name: 'ContactMe',
+        component: () => import('../../components/shared/contact.vue'),
+        meta: {title: 'Regniek | Contact me'},
       },
     ]
   },

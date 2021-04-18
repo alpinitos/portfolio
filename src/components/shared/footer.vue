@@ -5,7 +5,7 @@
             <a href="https://www.instagram.com/camilo_regniek/" target="blank_">Instagram</a>
             <a href="https://twitter.com/Camilo_Regniek" target="blank_">Twitter</a>
             <a href="https://api.whatsapp.com/send?phone=+573015559202" target="blank_">Whatsapp</a>
-            <a href="mailto:juanespitia@outlook.com" target="blank_">Email</a>
+            <a href="mailto:camilo.regniek@gmail.com" target="blank_">Email</a>
         </div>
         <div class="credit"><a href="http://www.regniek.dev">Powered and Desing by Regniek</a> </div>
     </div>
