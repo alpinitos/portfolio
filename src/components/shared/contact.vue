@@ -5,7 +5,7 @@
             <p class="close" @click="goToBefore()">X</p>
             <div class="container_network--links">
                 <a href="https://www.instagram.com/camilo_regniek/" target="blank_"><img :src="require('../../assets/iconos/instagram.png')" alt=""></a>
-                <a href="mailto:juanespitia@outlook.com" target="blank_" alt=""><img :src="require('../../assets/iconos/mail.png')" alt=""></a>
+                <a href="mailto:camilo.regniek@gmail.com" target="blank_" alt=""><img :src="require('../../assets/iconos/mail.png')" alt=""></a>
                 <a href="https://twitter.com/Camilo_Regniek" target="blank_"><img :src="require('../../assets/iconos/twitter.png')" alt=""></a>
                 <a href="https://api.whatsapp.com/send?phone=+573015559202" target="blank_"><img :src="require('../../assets/iconos/whatsapp.png')" alt=""></a>
             </div>

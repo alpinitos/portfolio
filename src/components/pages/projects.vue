@@ -44,7 +44,7 @@ export default {
         works:[
             {
                 name:'Ingefarm page',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This project was my first work as developer in this moment are improving with vue and new desing in ingefarm.vercel.app',
                 tech:'Vue',
                 url:'http://ingefarm.co',
                 api:'',
@@ -54,7 +54,7 @@ export default {
             },
             {
                 name:'Blog',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This project is the part visual of once blog, the plan is add a API for will make functionality and start to write my differents articles about tech and life',
                 tech:'JS, CSS, HTML',
                 url:'https://regniek.github.io/RegniekBlog/index.html',
                 api:'',
@@ -64,7 +64,7 @@ export default {
             },
             {
                 name:'Mariachi Nuevo Jalisco',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'It\'s a project with that I help the local mariachi in pandemic for extended the participation in the internet.',
                 tech:'JS, CSS, HTML',
                 url:'https://mariachinuevojalisco.com.co/',
                 api:'',
@@ -74,7 +74,7 @@ export default {
             },
             {
                 name:'Solutioms Premium',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This is a project for present the portfolio for SolutionsPremium SAS, this project is my first project in Vue and CO/CI with vercel',
                 tech:'Vue',
                 url:'https://www.solutionspremium.com.co/',
                 api:'',
@@ -84,7 +84,7 @@ export default {
             },
             {
                 name:'PanDar-app',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This is a great project made when I was in intensive training in Platzi Master, I participated in the backend developer rol, in this project I can do differents proposal for built the structure in data base and backend service.',
                 tech:'Node JS',
                 url:'https://pandar.vercel.app/',
                 api:'https://backend-intellegent-tourism-system.vercel.app/',
@@ -94,7 +94,7 @@ export default {
             },
             {
                 name:'Let\'sRoomie-app',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This project is very important, because with this I finished mi intensive fase in platzi master and in this I can apply differents skills about Node js Mongo DB and AWS.',
                 tech:'Node JS AWS',
                 url:'https://letsroomie.vercel.app/',
                 api:'https://api-letsroomie.herokuapp.com/api-docs/',
@@ -104,7 +104,7 @@ export default {
             },
             {
                 name:'Grupo DESCA',
-                description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                description:'This project is create about the needly of people in differents companies with low level in work safety system with respect the colombian\'s law',
                 tech:'Vue',
                 url:'https://www.grupodesca.com/',
                 api:'',

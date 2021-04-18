@@ -77,34 +77,34 @@ export default {
                 {
                     name:'Fusepong',
                     job:'Web Developer',
-                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                    description:'In this work I am working in diferrents apps as developer with ruby on rails and vue js, I have focus in Backend developer but I have little task in the frontend and the DevOps',
                     start:'dec-2020',
                     finish:'Now'
                 },
                 {
                     name:'General Motors Colmotores',
                     job:'Reporting BI Engineer',
-                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                    description:'It was my finish position in General Motors, I had differents recognition for delivery excelents reports that allow follow the planning of production and the allow the comapny over passed the first re open time in quarantine.',
                     start:'mar 2020',
                     finish:'dec 2020'
                 },
                 {
                     name:'General Motors Zoficol',
                     job:'Production Control Engineer',
-                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                    description:'It was my first position as engineer, In that position I improved my skils in short lead time, continous improvement and development with visual basic',
                     start:'sep 2017',
                     finish:'dec 2020'
                 },
                 {
                     name:'General Motors Zoficol',
-                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                    description:'In that Job I won a strong skill in lead, beacouse I learning to work with work groups with lenght 18 people in a team, I work in differents areas about production assembly as dress truck, heavy suspensions, autmovile suspensions, tires, riveting trucks.',
                     job:'Team Leader',
                     start:'oct 2014',
                     finish:'agu 2017'
                 },
                 {
                     name:'Ingefarm',
-                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam, minima impedit corporis exercitationem quisquam?',
+                    description:'It were my first work,in that position I was gain different skills about flight learning, proactivity and lead, I applied differents skill in the mechanic area.',
                     job:'Mechanic',
                     start:'feb 2014',
                     finish:'agu 2014'
