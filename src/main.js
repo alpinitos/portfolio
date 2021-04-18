@@ -4,10 +4,9 @@ import router from './vue/router'
 
 Vue.config.productionTip = false
 
-Vue.component('Nav-bar', require('./components/navbar.vue').default)
-Vue.component('Footer', require('./components/footer.vue').default)
+Vue.component('Nav-bar', require('./components/shared/navbar.vue').default)
+Vue.component('Footer', require('./components/shared/footer.vue').default)
 Vue.component('Home', require('./components/home.vue').default)
-Vue.component('Mision', require('./components/mandv.vue').default)
 
 new Vue({
   router,

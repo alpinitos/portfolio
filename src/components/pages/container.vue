@@ -1,0 +1,52 @@
+<template>
+    <div class="container__landing">
+       <div class="container__landing--box">
+           <div class="container__landing--box__image">
+               
+               <img src="" alt="">
+           </div>
+            <div class="container__landing--box__text">
+                <p class="quote">Yesterday is history, tomorrow is a mistery, and today is a gift.. that's why they call it the present.</p>
+                <p class="author">-Master Oogway</p>
+            </div>
+        </div>
+    </div>
+</template>
+<style scoped>
+.container__landing{
+       width: 100%;
+       height: 70vh;
+       display: flex;
+       justify-content:center;
+       text-align: center;
+   }
+   .container__landing--box{
+       display: grid;
+       grid-template-rows: 3fr 1fr;
+       border: 2px solid pink;
+       margin: 60px;
+       box-shadow: 0 0 20px white;
+   }
+   .container__landing--box__image{
+       height: 100%;
+       width: 100%;
+   }
+   .container__landing--box__text{
+       display: flex;
+       justify-content:center;
+       text-align: center;
+       flex-wrap: wrap;
+   }
+   .container__landing--box__text p{
+       width: 100%;
+       color: white;
+   }
+
+@media (max-width: 850px) {
+   
+
+}
+@media (max-width: 850px) and (orientation: landscape){
+   
+}
+</style>
