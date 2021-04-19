@@ -24,7 +24,7 @@ export default {
             about:{
                 
                     name:'Juan Camilo Espitia Camacho',
-                    description:'Welcome to my being, I am Juan Camilo Espitia Camacho, Web developer of Fusepong in the city of Bogotá, Mechanical Engineer of the Francisco José de Caldas District University, passionate about all kinds of bicycles, substitute father of a boy and girl, husband of a great woman. I fell in love with software development at 15 years old, but by chance in life I left it for more than 10 years, at 28 I take it up again and with the help of Platzi and my family I will be one of the best. This site is created to start my journey as a Blogger and serve the community.',
+                    description:'Welcome to my being, I am Juan Camilo Espitia Camacho, Web developer of Fusepong in the city of Bogotá, Mechanical Engineer of the Francisco José de Caldas District University, passionate about all kinds of bicycles, substitute father of a boy and girl, husband of a great woman. I fell in love with software development at the age of 15, but for things of life, I left it for more than 10 years, at 28 I took it up again, and with the help of Platzi and my family, I will be one of the best. This site is created to start my journey as a Blogger and serve the community.',
                     city:'Bogotá',
                     country:'Colombia',
                     img:'https://images.emojiterra.com/twitter/v13.0/512px/1f1e8-1f1f4.png'
@@ -95,7 +95,7 @@ export default {
         height: 100%;
     }
     .container__about--name h2{
-        font-size: 20px;
+        font-size: 20   px;
     }
 }
 </style>
