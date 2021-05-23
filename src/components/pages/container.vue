@@ -3,7 +3,7 @@
        <div class="container__landing--box">
            <div class="container__landing--box__image">
                <p>
-                   BACK-END DEVELOPER AND SOFTWARE ENGINEER IN BUILDING
+                   BACK-END DEVELOPER
                </p>
            </div>
             <div class="container__landing--box__text">

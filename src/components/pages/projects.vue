@@ -131,7 +131,7 @@ export default {
         margin:10%;
         border-radius: 5px;
         box-shadow: 3px 3px 20px white;
-        height: 600px;
+        height: 650px;
     }
     .container__portfolio--items__card--img{
         margin:10%;

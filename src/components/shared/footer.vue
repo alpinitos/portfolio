@@ -2,6 +2,7 @@
     <div class="footer__container">
         <div class="footer__container--links">
             <h4>Find me:</h4>
+            <a href="https://www.linkedin.com/in/juanregniek/" target="blank_">LinkedIn</a>
             <a href="https://www.instagram.com/camilo_regniek/" target="blank_">Instagram</a>
             <a href="https://twitter.com/Camilo_Regniek" target="blank_">Twitter</a>
             <a href="https://api.whatsapp.com/send?phone=+573015559202" target="blank_">Whatsapp</a>
