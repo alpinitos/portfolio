@@ -32,12 +32,12 @@
 </template>
 <script>
 import ingefarm from '../../assets/images/ingefarm.png'
-import grupodesca from '../../assets/images/grupodesca.png'
+// import grupodesca from '../../assets/images/grupodesca.png'
 import blog from '../../assets/images/blog.png'
 import letsroomie from '../../assets/images/letsroomie.png'
 import mariachinuevojalisco from '../../assets/images/mariachinuevojalisco.png'
 import pandar from '../../assets/images/pandar.png'
-import solutions from '../../assets/images/solutionspremium.png'
+// import solutions from '../../assets/images/solutionspremium.png'
 export default {
     data(){
         return{
@@ -72,16 +72,16 @@ export default {
                 rol:'Frontend',
                 img:mariachinuevojalisco
             },
-            {
-                name:'Solutioms Premium',
-                description:'This is a project to display the SolutionsPremium SAS portfolio, this project is my first project in VUE and CI with vercel.',
-                tech:'Vue',
-                url:'https://www.solutionspremium.com.co/',
-                api:'',
-                documentation:'',
-                rol:'Frontend',
-                img:solutions
-            },
+            // {
+            //     name:'Solutioms Premium',
+            //     description:'This is a project to display the SolutionsPremium SAS portfolio, this project is my first project in VUE and CI with vercel.',
+            //     tech:'Vue',
+            //     url:'https://www.solutionspremium.com.co/',
+            //     api:'',
+            //     documentation:'',
+            //     rol:'Frontend',
+            //     img:solutions
+            // },
             {
                 name:'PanDar-app',
                 description:'This is a great project made when I was in intensive training in Platzi Master, I participated in the backend developer role, in this project I proposed different options for building the structure in data base and backend service.',
@@ -102,16 +102,16 @@ export default {
                 rol:'Backend',
                 img:letsroomie
             },
-            {
-                name:'Grupo DESCA',
-                description:'This project was created around the need of people in different companies with low levels in the work safety system with respect to Colombian\'s law',
-                tech:'Vue',
-                url:'https://www.grupodesca.com/',
-                api:'',
-                documentation:'',
-                rol:'Frontent',
-                img:grupodesca
-            },
+            // {
+            //     name:'Grupo DESCA',
+            //     description:'This project was created around the need of people in different companies with low levels in the work safety system with respect to Colombian\'s law',
+            //     tech:'Vue',
+            //     url:'https://www.grupodesca.com/',
+            //     api:'',
+            //     documentation:'',
+            //     rol:'Frontent',
+            //     img:grupodesca
+            // },
         ]
     }
     }
