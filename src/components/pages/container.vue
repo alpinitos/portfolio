@@ -3,12 +3,12 @@
        <div class="container__landing--box">
            <div class="container__landing--box__image">
                <p>
-                   BACK-END DEVELOPER
+                   FLUTTER DEVELOPER
                </p>
            </div>
             <div class="container__landing--box__text">
-                <p class="quote">Yesterday is history, tomorrow is a mistery, and today is a gift.. that's why they call it the present.</p>
-                <p class="author">-Master Oogway</p>
+                <p class="quote">"The most important thing in life will always be the people in this room, right here, right now."</p>
+                <p class="author">-Dominic Toretto</p>
             </div>
         </div>
     </div>

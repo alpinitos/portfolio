@@ -52,62 +52,43 @@ export default {
         return{
             study:[
                 {
-                    name:'Backend Developer',
-                    institute:'Platzi',
-                    finish:'2023'
+                    name:'Flutter Developer',
+                    institute:'Platzi, Udemy , Codigo Facilito, BIT',
+                    finish:'Actual'
                 },
                 {
-                    name:'Mechanic Engineer',
-                    institute:'University Distral Francisco José de Caldas',
-                    finish:'2020'
-                },
-                {
-                    name:'Mechanical Technologist ',
-                    institute:'University Distral Francisco José de Caldas',
-                    finish:'2015'
+                    name:'Tecnico Electricidad y Electronica Automotriz',
+                    institute:'Instituto Juan Bosco Obrero',
+                    finish:'2014'
                 }
             ],
             idioms:[
                 {
                     name:'English',
-                    level:'A2'
+                    level:'A1'
                 }
             ],
             works:[
                 {
-                    name:'Fusepong',
-                    job:'Web Developer',
-                    description:'In this work I am working in different apps as a developer with ruby on rails and vue js, I have a focus on Backend developer but I have a few tasks in the frontend and the DevOps',
-                    start:'dec-2020',
+                    name:'General Motors Colmotores',
+                    job:'Analista de Riesgos',
+                    description:'Realizaba las siguientes actividades; Análisis, control y gestión de los riesgos de las áreas de auto y camión, Gestión de los nuevos proyectos para cumplir los requerimientos de seguridad y ergonomía de la organización, Gestión de cierre de reportes de seguridad y de ergonomía para el cumplimiento de los objetivos de la organización, Automatización de reportes y creación de Dashboard con Visual Basic for Applications para la optimización del tiempo, Integración de Visual Basic for Applications con otras herramientas para consolidar los datos de estandarizados y riesgos en un solo lugar y Generación de paneles de control en Visual Basic for Applications para el control de información en la eliminación de riesgos potenciales.',
+                    start:'sep-2017',
                     finish:'Now'
                 },
                 {
                     name:'General Motors Colmotores',
-                    job:'Reporting BI Engineer',
-                    description:'It was my last position in General Motors, I had different recognitions for giving excellent reports that allowed the company to continue with the plan of production and allowed it to overcome the first re-opening time in quarantine.',
-                    start:'mar 2020',
-                    finish:'dec 2020'
+                    job:'Operario General',
+                    description:'Realizaba las siguientes actividades; Ensamble de autopartes para vehiculos pesados , livianos y automóviles, Desarrollo de trabajo estandarizado, Optimizar procesos de la cadena de producción con sugerencias tangibles, Inspección de autopartes terminadas y Aplicación de pintura para autopartes y automoviles.',
+                    start:'sep 2014',
+                    finish:'sep 2017'
                 },
                 {
-                    name:'General Motors Zoficol',
-                    job:'Production Control Engineer',
-                    description:'It was my first position as engineer, In that position I improved my skils in short lead time, continous improvement and development with visual basic',
-                    start:'sep 2017',
-                    finish:'dec 2020'
-                },
-                {
-                    name:'General Motors Zoficol',
-                    description:'In that Job, I gained great skills in leadership because I learned to work with groups of up to 18 people in a team, I work in different areas of production assembly such as dress trucks, heavy suspensions, automobile suspensions, tires, riveting trucks.',
-                    job:'Team Leader',
-                    start:'oct 2014',
-                    finish:'agu 2017'
-                },
-                {
-                    name:'Ingefarm',
-                    description:'It was my first work in that position, I gained different skills in flight learning, proactivity, and leadership; I applied different abilities in the mechanic area.',
-                    job:'Mechanic',
-                    start:'feb 2014',
-                    finish:'agu 2014'
+                    name:'House Motors',
+                    job:'Mecánico',
+                    description:'Realizaba las siguientes actividades; Mantenimiento físico de vehículos eléctrica y mecánicamente, Asesoría en venta de refacciones, Manejo de personal, Aplicación de pintura para vehiculos y Coordinación de actividades diarias del taller.',
+                    start:'ene 2016',
+                    finish:'mar 2019'
                 }
             ]
         }

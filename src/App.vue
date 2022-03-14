@@ -22,7 +22,7 @@ export default {
     font-family: 'Lato', sans-serif;
   }
   .all__body{
-    background: linear-gradient(#000,#17005C);
+    background: linear-gradient(#000,#52adc1);
     width: 100vw;
     /* #0713A6 */
   }

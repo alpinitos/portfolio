@@ -31,89 +31,24 @@
     </div>
 </template>
 <script>
-import ingefarm from '../../assets/images/ingefarm.png'
-// import grupodesca from '../../assets/images/grupodesca.png'
-import blog from '../../assets/images/blog.png'
-import letsroomie from '../../assets/images/letsroomie.png'
-import mariachinuevojalisco from '../../assets/images/mariachinuevojalisco.png'
-import pandar from '../../assets/images/pandar.png'
-// import solutions from '../../assets/images/solutionspremium.png'
+import ingefarm from '../../assets/images/imagen_movil.jpeg'
+
 export default {
     data(){
         return{
-        works:[
-            {
-                name:'Ingefarm page',
-                description:'This project was my first work as a developer in this moment improvements are being made with vue and new desing in ingefarm.vercel.app.',
-                tech:'Vue',
-                url:'http://ingefarm.co',
-                api:'',
-                documentation:'',
-                rol:'Frontend',
-                img:ingefarm
-            },
-            {
-                name:'Blog',
-                description:'This project is the visual  part of one blog, the plan is to add an API for making it functional and start to write different articles about tech and life.',
-                tech:'JS, CSS, HTML',
-                url:'https://regniek.github.io/RegniekBlog/index.html',
-                api:'',
-                documentation:'',
-                rol:'Frontend',
-                img:blog
-            },
-            {
-                name:'Mariachi Nuevo Jalisco',
-                description:'It\'s a project in which I intend to help the local mariachi in pandemic for extending the participation on the internet.',
-                tech:'JS, CSS, HTML',
-                url:'https://mariachinuevojalisco.com.co/',
-                api:'',
-                documentation:'',
-                rol:'Frontend',
-                img:mariachinuevojalisco
-            },
-            // {
-            //     name:'Solutioms Premium',
-            //     description:'This is a project to display the SolutionsPremium SAS portfolio, this project is my first project in VUE and CI with vercel.',
-            //     tech:'Vue',
-            //     url:'https://www.solutionspremium.com.co/',
-            //     api:'',
-            //     documentation:'',
-            //     rol:'Frontend',
-            //     img:solutions
-            // },
-            {
-                name:'PanDar-app',
-                description:'This is a great project made when I was in intensive training in Platzi Master, I participated in the backend developer role, in this project I proposed different options for building the structure in data base and backend service.',
-                tech:'Node JS',
-                url:'https://pandar.vercel.app/',
-                api:'https://backend-intellegent-tourism-system.vercel.app/',
-                documentation:'https://gitlab.com/pandevs/backend-intellegent-tourism-system',
-                rol:'Backend',
-                img:pandar
-            },
-            {
-                name:'Let\'sRoomie-app',
-                description:'This project was very important because with it I finished my intensive phase in platzi master and in it I could use different skills on Node js Mongo DB and AWS.',
-                tech:'Node JS AWS',
-                url:'https://letsroomie.vercel.app/',
-                api:'https://api-letsroomie.herokuapp.com/api-docs/',
-                documentation:'https://github.com/Yuliana-Team-Project-PM/Backend-LetsRoomie',
-                rol:'Backend',
-                img:letsroomie
-            },
-            // {
-            //     name:'Grupo DESCA',
-            //     description:'This project was created around the need of people in different companies with low levels in the work safety system with respect to Colombian\'s law',
-            //     tech:'Vue',
-            //     url:'https://www.grupodesca.com/',
-            //     api:'',
-            //     documentation:'',
-            //     rol:'Frontent',
-            //     img:grupodesca
-            // },
+            works:[
+                {
+                    name:'House Motors',
+                    description:'Este proyecto fue realizado en Flutter, primer proyecto es un visualizador de automoviles',
+                    tech:'Flutter',
+                    url:'https://github.com/EdwinBikes/house_motors',
+                    api:'',
+                    documentation:'',
+                    rol:'Movil Dev',
+                    img:ingefarm
+                }
         ]
-    }
+        }   
     }
 }
 </script>
@@ -131,7 +66,7 @@ export default {
         margin:10%;
         border-radius: 5px;
         box-shadow: 3px 3px 20px white;
-        height: 650px;
+        height: 800px;
     }
     .container__portfolio--items__card--img{
         margin:10%;
@@ -140,7 +75,9 @@ export default {
         align-items: center;
     }
     .container__portfolio--items__card--img img{
-        height: 200px;
+        height: 400px;
+        width: 90%;
+        object-fit: cover;
     }
     .container__portfolio--title{
         width: 100%;

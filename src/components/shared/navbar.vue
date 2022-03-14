@@ -2,10 +2,10 @@
     <div class="navbar__container">
        <div class="navbar__container--items">
            <div class="navbar__container--items__logo">
-               <img :src="require('../../assets/logo.png')" alt="Logo" @click="goToHome()">
+               <img :src="require('../../assets/iconos/icons8-honda-480.png')" alt="Logo" @click="goToHome()">
            </div>
            <div class="navbar__container--items__caption">
-               <h1>Regniek - Camilo Espitia</h1>
+               <h1>EdwinBikes - Edwin Gutierrez</h1>
            </div>
            <div class="navbar__container--items__menu">
                <img :src="require('../../assets/menu.png')"  alt="menu" @click="showMenu=true">
@@ -79,7 +79,7 @@ export default {
 .float_menu p{
     text-align: right;
     padding: 20px;
-    background: linear-gradient(#17005C,#000);
+    background: linear-gradient(#52adc1,#000);
 
 }
 .navbar__container{
